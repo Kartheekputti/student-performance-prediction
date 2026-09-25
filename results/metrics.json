@@ -1,0 +1,45 @@
+{
+  "best_model": "LogisticRegression",
+  "accuracy": 0.8166666666666667,
+  "precision_weighted": 0.8135044431839666,
+  "recall_weighted": 0.8166666666666667,
+  "f1_weighted": 0.8140841687552213,
+  "classification_report": "              precision    recall  f1-score   support\n\n     Average       0.75      0.68      0.71        40\n        High       0.86      0.90      0.88        41\n         Low       0.83      0.87      0.85        39\n\n    accuracy                           0.82       120\n   macro avg       0.81      0.82      0.81       120\nweighted avg       0.81      0.82      0.81       120\n",
+  "all_models": {
+    "LogisticRegression": {
+      "accuracy": 0.8166666666666667,
+      "precision_weighted": 0.8135044431839666,
+      "recall_weighted": 0.8166666666666667,
+      "f1_weighted": 0.8140841687552213
+    },
+    "KNN": {
+      "accuracy": 0.725,
+      "precision_weighted": 0.7561965811965812,
+      "recall_weighted": 0.725,
+      "f1_weighted": 0.7287549407114625
+    },
+    "DecisionTree": {
+      "accuracy": 0.6416666666666667,
+      "precision_weighted": 0.6401515151515151,
+      "recall_weighted": 0.6416666666666667,
+      "f1_weighted": 0.6402549019607844
+    },
+    "RandomForest": {
+      "accuracy": 0.775,
+      "precision_weighted": 0.7732142857142856,
+      "recall_weighted": 0.775,
+      "f1_weighted": 0.7740277565960042
+    },
+    "SVM": {
+      "accuracy": 0.775,
+      "precision_weighted": 0.7773754429851991,
+      "recall_weighted": 0.775,
+      "f1_weighted": 0.7759300281293952
+    }
+  },
+  "classes": [
+    "Average",
+    "High",
+    "Low"
+  ]
+}
